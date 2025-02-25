@@ -10,8 +10,9 @@ const RunningExercise = () => {
 
   return (
     <div>
-      <h2>Running Exercise</h2>
+      <h1>Running Exercise</h1>
       <button onClick={recordLap}>Record Lap</button>
+      <h2>Laps:</h2>
       <ul>
         {laps.map((lap, index) => (
           <li key={index}>{lap}</li>
