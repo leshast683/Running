@@ -18,5 +18,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://leshast683.github.io/running"
+  "homepage": "https://leshast683.github.io/Running"
 }
